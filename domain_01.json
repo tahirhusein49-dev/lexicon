@@ -1,0 +1,1344 @@
+{
+  "schema_version": "CEMF-v2-six-part",
+  "domain_id": "domain_01",
+  "order": 1,
+  "name": "مجال الوجدان والنفس السلوكية",
+  "description": "الأحوال والانفعالات المستقرة في النفس البشرية تجاه الحق والباطل والابتلاء، والتحولات السلوكية الناتجة عنها.",
+  "official_root_count": 17,
+  "synthesis_group_count": 16,
+  "framework": {
+    "fixed_root": {
+      "label": "الأصل الحقولي الثابت",
+      "status": "approved",
+      "purpose": "المفهوم الجامع الثابت للأصل والجذر."
+    },
+    "phonetic_morphological_neighbors": {
+      "label": "المجاورة الصوتية والصرفية",
+      "status": "pending",
+      "purpose": "بيان أثر الحركة والصيغة وحروف التعدية والجر."
+    },
+    "lexical_neighbors": {
+      "label": "المجاورة اللفظية",
+      "status": "approved",
+      "purpose": "الألفاظ المجاورة والفروق الدلالية داخل الحقل."
+    },
+    "adjacent_root_bridge": {
+      "label": "الأصل المجاور / الجسر الدلالي",
+      "status": "pending",
+      "purpose": "الروابط الناقلة إلى الأصول والمفاهيم المجاورة."
+    },
+    "parallel_or_contrasting_root": {
+      "label": "الأصل الموازي والمضاد",
+      "status": "pending",
+      "purpose": "المقابلات والجهات الموازية أو المضادة عند اكتمال التحرير."
+    },
+    "contextual_cross_notes": {
+      "label": "التنبيهات المتقاطعة والسياقية",
+      "status": "pending",
+      "purpose": "التمييز بين الأبعاد التكليفية والجبليّة وحال المسند إليه."
+    }
+  },
+  "synthesis_groups": [
+    {
+      "id": "synthesis-01",
+      "order": 1,
+      "title": "الخَوْف / الخَشْيَة / الرَّهْبَة / الوَجَل / الإِشْفَاق",
+      "concept": "انفعال النفس وتوجسها عند توقع المكروه أو استحضار الجلال الإلهي.",
+      "terms": [
+        {
+          "term": "الخَوْف",
+          "distinction": "توقع الحدوث أو المكروه بناءً على أمارة مظنونة أو معلومة (وهو أصل الباب)."
+        },
+        {
+          "term": "الخَشْيَة",
+          "distinction": "خوف يقترن بعلم وتعظيم للمخوف منه، وهي أخص من الخوف."
+        },
+        {
+          "term": "الرَّهْبَة",
+          "distinction": "طول الخوف واستمراره مع اضطراب وتحرّز وتجمّع للنفس."
+        },
+        {
+          "term": "الوَجَل",
+          "distinction": "استشعار الخوف وفزع القلب عند حدوث أمر مفاجئ أو عند ذكر جلال الله."
+        },
+        {
+          "term": "الإِشْفَاق",
+          "distinction": "خوف رقيق ممزوج بعناية ورحمة بالمخوف عليه."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الخَوْف",
+          "distinction": "توقع الحدوث أو المكروه بناءً على أمارة مظنونة أو معلومة (وهو أصل الباب)."
+        },
+        {
+          "term": "الخَشْيَة",
+          "distinction": "خوف يقترن بعلم وتعظيم للمخوف منه، وهي أخص من الخوف."
+        },
+        {
+          "term": "الرَّهْبَة",
+          "distinction": "طول الخوف واستمراره مع اضطراب وتحرّز وتجمّع للنفس."
+        },
+        {
+          "term": "الوَجَل",
+          "distinction": "استشعار الخوف وفزع القلب عند حدوث أمر مفاجئ أو عند ذكر جلال الله."
+        },
+        {
+          "term": "الإِشْفَاق",
+          "distinction": "خوف رقيق ممزوج بعناية ورحمة بالمخوف عليه."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-02",
+      "order": 2,
+      "title": "الحُزْن / الأَسَى / الخَوْف الوجداني",
+      "concept": "ألم النفس وانقباضها بسبب وقوع مكروه في الماضي أو فوات محبوب.",
+      "terms": [
+        {
+          "term": "الحُزْن",
+          "distinction": "انقباض النفس وغمّها على ما فات أو نزل من المكروه."
+        },
+        {
+          "term": "الأَسَى",
+          "distinction": "شدة الحزن والاستغراق فيه حتى يورث الحسرة على الماضي."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الحُزْن",
+          "distinction": "انقباض النفس وغمّها على ما فات أو نزل من المكروه."
+        },
+        {
+          "term": "الأَسَى",
+          "distinction": "شدة الحزن والاستغراق فيه حتى يورث الحسرة على الماضي."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-03",
+      "order": 3,
+      "title": "الرَّجَاء / الرَّغْبَة / الأَمَل",
+      "concept": "انشراح النفس وتطلعها لوصول الخير أو النفع المترقب مع بذل السبب.",
+      "terms": [
+        {
+          "term": "الرَّجَاء",
+          "distinction": "تعلّق القلب بمتوقع محبوب مع الأخذ بأسبابه."
+        },
+        {
+          "term": "الرَّغْبَة",
+          "distinction": "ميل النفس وإقبالها الكلي نحو المطلوب بشوق وحرص."
+        },
+        {
+          "term": "الأَمَل",
+          "distinction": "امتداد الرجاء وطوله في الزمن."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الرَّجَاء",
+          "distinction": "تعلّق القلب بمتوقع محبوب مع الأخذ بأسبابه."
+        },
+        {
+          "term": "الرَّغْبَة",
+          "distinction": "ميل النفس وإقبالها الكلي نحو المطلوب بشوق وحرص."
+        },
+        {
+          "term": "الأَمَل",
+          "distinction": "امتداد الرجاء وطوله في الزمن."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-04",
+      "order": 4,
+      "title": "الأَمْن / الطَّمَأْنِينَة / السَّكِينَة",
+      "concept": "زوال الخوف وحصول السكون والاستقرار النفسي والروحي.",
+      "terms": [
+        {
+          "term": "الأَمْن",
+          "distinction": "عدم توقع المكروه وزوال الخوف والذعر."
+        },
+        {
+          "term": "الطَّمَأْنِينَة",
+          "distinction": "استقرار النفس بحيث لا يقلقها شك ولا يزعجها اضطراب."
+        },
+        {
+          "term": "السَّكِينَة",
+          "distinction": "طمأنينة ينزلها الله في القلب عند الفتن أو شدة الخوف فتورث الثبات."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الأَمْن",
+          "distinction": "عدم توقع المكروه وزوال الخوف والذعر."
+        },
+        {
+          "term": "الطَّمَأْنِينَة",
+          "distinction": "استقرار النفس بحيث لا يقلقها شك ولا يزعجها اضطراب."
+        },
+        {
+          "term": "السَّكِينَة",
+          "distinction": "طمأنينة ينزلها الله في القلب عند الفتن أو شدة الخوف فتورث الثبات."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-05",
+      "order": 5,
+      "title": "الغَضَب / الغَيْظ / السَّخَط",
+      "concept": "غليان دم القلب وانفعاله لإرادة الانتقام أو دفع المكروه.",
+      "terms": [
+        {
+          "term": "الغَضَب",
+          "distinction": "الانفعال النفسي الداعي إلى الانتقام أو المنع."
+        },
+        {
+          "term": "الغَيْظ",
+          "distinction": "شدة الغضب وحرارته المحبوسة في الصدر عند العجز عن إمضائه فوراً."
+        },
+        {
+          "term": "السَّخَط",
+          "distinction": "الغضب الصادر من الأعلى إلى الأدنى عند ترك الواجب أو انتهاك المحظور."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الغَضَب",
+          "distinction": "الانفعال النفسي الداعي إلى الانتقام أو المنع."
+        },
+        {
+          "term": "الغَيْظ",
+          "distinction": "شدة الغضب وحرارته المحبوسة في الصدر عند العجز عن إمضائه فوراً."
+        },
+        {
+          "term": "السَّخَط",
+          "distinction": "الغضب الصادر من الأعلى إلى الأدنى عند ترك الواجب أو انتهاك المحظور."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-06",
+      "order": 6,
+      "title": "الفَرَح / المَرَح / الاسْتِبْشَار",
+      "concept": "انشراح الصدر ونشاط النفس لنيل المرغوب.",
+      "terms": [
+        {
+          "term": "الفَرَح",
+          "distinction": "لذة تقع في القلب لنيل المشتهى، وقد تكون محمودة أو مذمومة بحسب سببها."
+        },
+        {
+          "term": "المَرَح",
+          "distinction": "شدة الفرح والتوسع فيه حتى يورث الخفة والخيلاء."
+        },
+        {
+          "term": "الاسْتِبْشَار",
+          "distinction": "الفرح الذي تظهر آثاره وبشائره على الوجه عند سماع الخبر السار."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الفَرَح",
+          "distinction": "لذة تقع في القلب لنيل المشتهى، وقد تكون محمودة أو مذمومة بحسب سببها."
+        },
+        {
+          "term": "المَرَح",
+          "distinction": "شدة الفرح والتوسع فيه حتى يورث الخفة والخيلاء."
+        },
+        {
+          "term": "الاسْتِبْشَار",
+          "distinction": "الفرح الذي تظهر آثاره وبشائره على الوجه عند سماع الخبر السار."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-07",
+      "order": 7,
+      "title": "الحَسْرَة / النَّدَم / التَّلَهُّف",
+      "concept": "ألم النفس المتولد عن التفكير فيما مضى من التفريط أو التقصير.",
+      "terms": [
+        {
+          "term": "النَّدَم",
+          "distinction": "كرب النفس وتألمها على ما وقع منها مما تتمنى لو لم يقع."
+        },
+        {
+          "term": "الحَسْرَة",
+          "distinction": "شدة الندم حتى يكاد يقطع صاحبه ويجعله حسيراً."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "النَّدَم",
+          "distinction": "كرب النفس وتألمها على ما وقع منها مما تتمنى لو لم يقع."
+        },
+        {
+          "term": "الحَسْرَة",
+          "distinction": "شدة الندم حتى يكاد يقطع صاحبه ويجعله حسيراً."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-08",
+      "order": 8,
+      "title": "الشُّحّ / البُخْل / القَتْر",
+      "concept": "انقباض النفس عن بذل ما يجب بذله من المال أو الحقوق.",
+      "terms": [
+        {
+          "term": "البُخْل",
+          "distinction": "إمساك المكتسبات والامتناع عن إعطاء ما يحسن إعطاؤه."
+        },
+        {
+          "term": "الشُّحّ",
+          "distinction": "شدة البخل المستقرة طبعاً في النفس والمقترنة بالحرص."
+        },
+        {
+          "term": "القَتْر",
+          "distinction": "التضييق والتقليل في النفقة."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "البُخْل",
+          "distinction": "إمساك المكتسبات والامتناع عن إعطاء ما يحسن إعطاؤه."
+        },
+        {
+          "term": "الشُّحّ",
+          "distinction": "شدة البخل المستقرة طبعاً في النفس والمقترنة بالحرص."
+        },
+        {
+          "term": "القَتْر",
+          "distinction": "التضييق والتقليل في النفقة."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-09",
+      "order": 9,
+      "title": "الكِبْر / العُجْب / الخُيَلَاء / الاسْتِكْبَار",
+      "concept": "رؤية النفس فوق قدرها واستعظام حالها واستحقاقها.",
+      "terms": [
+        {
+          "term": "الكِبْر",
+          "distinction": "حالة نفسية يرى بها الإنسان نفسه أكبر من غيره ويرفض الحق."
+        },
+        {
+          "term": "العُجْب",
+          "distinction": "استعظام النعمة والاعتماد عليها مع نسيان منعمها."
+        },
+        {
+          "term": "الخُيَلَاء",
+          "distinction": "التكبر الظاهر في المشية والهيئة والسلوك الخارجي."
+        },
+        {
+          "term": "الاسْتِكْبَار",
+          "distinction": "الامتناع والتعالي السلوكي الداعي لرد الحق والاستعلاء على الخلق."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الكِبْر",
+          "distinction": "حالة نفسية يرى بها الإنسان نفسه أكبر من غيره ويرفض الحق."
+        },
+        {
+          "term": "العُجْب",
+          "distinction": "استعظام النعمة والاعتماد عليها مع نسيان منعمها."
+        },
+        {
+          "term": "الخُيَلَاء",
+          "distinction": "التكبر الظاهر في المشية والهيئة والسلوك الخارجي."
+        },
+        {
+          "term": "الاسْتِكْبَار",
+          "distinction": "الامتناع والتعالي السلوكي الداعي لرد الحق والاستعلاء على الخلق."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-10",
+      "order": 10,
+      "title": "التَّوَكُّل / الِاعْتِمَاد / التَّفْوِيض",
+      "concept": "اعتماد القلب الصادق على الله تعالى في استجلاب المصالح ودفع المضار مع إعمال الأسباب.",
+      "terms": [
+        {
+          "term": "التَّوَكُّل",
+          "distinction": "إظهار العجز والاعتماد على غيرك في تحصيل المراد مع الأخذ بالسبب."
+        },
+        {
+          "term": "التَّفْوِيض",
+          "distinction": "رد الأمر كله لله والرضا بحكمه قبل وقوعه وبعده."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "التَّوَكُّل",
+          "distinction": "إظهار العجز والاعتماد على غيرك في تحصيل المراد مع الأخذ بالسبب."
+        },
+        {
+          "term": "التَّفْوِيض",
+          "distinction": "رد الأمر كله لله والرضا بحكمه قبل وقوعه وبعده."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-11",
+      "order": 11,
+      "title": "الصَّبْر / الجَلَد / المُرَابَطَة",
+      "concept": "حبس النفس عن الجزع، واللسان عن الشكوى، والجوارح عن المعصية.",
+      "terms": [
+        {
+          "term": "الصَّبْر",
+          "distinction": "حبس النفس على ما تكره وتثبيتها على طاعة الله أو الابتلاء."
+        },
+        {
+          "term": "المُصَابَرَة",
+          "distinction": "مغالبة العدو أو الهوى في الصبر، استمراراً ومغالبة."
+        },
+        {
+          "term": "المُرَابَطَة",
+          "distinction": "الثبات والاستمرار الميداني أو النفسي في الثغر."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الصَّبْر",
+          "distinction": "حبس النفس على ما تكره وتثبيتها على طاعة الله أو الابتلاء."
+        },
+        {
+          "term": "المُصَابَرَة",
+          "distinction": "مغالبة العدو أو الهوى في الصبر، استمراراً ومغالبة."
+        },
+        {
+          "term": "المُرَابَطَة",
+          "distinction": "الثبات والاستمرار الميداني أو النفسي في الثغر."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-12",
+      "order": 12,
+      "title": "اليَأْس / القُنُوط",
+      "concept": "انقطاع الرجاء والشفاء من وصول الخير أو فرج الله.",
+      "terms": [
+        {
+          "term": "اليَأْس",
+          "distinction": "انقطاع طمع النفس من وقوع المطلوب."
+        },
+        {
+          "term": "القُنُوط",
+          "distinction": "أشد اليأس؛ انقطاع الرجاء بالكامل وظهور أثره على هيئة الإنسان وسلوكه."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "اليَأْس",
+          "distinction": "انقطاع طمع النفس من وقوع المطلوب."
+        },
+        {
+          "term": "القُنُوط",
+          "distinction": "أشد اليأس؛ انقطاع الرجاء بالكامل وظهور أثره على هيئة الإنسان وسلوكه."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-13",
+      "order": 13,
+      "title": "الهَوَى / الشَّهْوَة / الجَشَع",
+      "concept": "ميل النفس المفرط إلى ما تلذه وتشتهيه دون النظر في العاقبة أو الحكم الشرعي.",
+      "terms": [
+        {
+          "term": "الهَوَى",
+          "distinction": "ميل النفس المستمر إلى ما يلائم طباعها وحسها وإن كان باطلاً."
+        },
+        {
+          "term": "الشَّهْوَة",
+          "distinction": "حركة النفس وتوقها العاجل لحصول المحبوب."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الهَوَى",
+          "distinction": "ميل النفس المستمر إلى ما يلائم طباعها وحسها وإن كان باطلاً."
+        },
+        {
+          "term": "الشَّهْوَة",
+          "distinction": "حركة النفس وتوقها العاجل لحصول المحبوب."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-14",
+      "order": 14,
+      "title": "القَسَاوَة / الرَّيْن / الطَّبْع",
+      "concept": "تغلظ القلب وغشاوتُه بحيث لا ينفذ إليه الحق ولا يرق للموعظة.",
+      "terms": [
+        {
+          "term": "القَسَاوَة",
+          "distinction": "صلابة القلب وغلاظته وخلوه من الإنابة والرحمة."
+        },
+        {
+          "term": "الرَّيْن",
+          "distinction": "الصدأ والظلمة التي تغطي القلب لكثرة الذنوب."
+        },
+        {
+          "term": "الطَّبْع / الخَتْم",
+          "distinction": "إغلاق القلب بالكلية فلا يدخله إيمان ولا يخرج منه كفر."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "القَسَاوَة",
+          "distinction": "صلابة القلب وغلاظته وخلوه من الإنابة والرحمة."
+        },
+        {
+          "term": "الرَّيْن",
+          "distinction": "الصدأ والظلمة التي تغطي القلب لكثرة الذنوب."
+        },
+        {
+          "term": "الطَّبْع / الخَتْم",
+          "distinction": "إغلاق القلب بالكلية فلا يدخله إيمان ولا يخرج منه كفر."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-15",
+      "order": 15,
+      "title": "الإِنَابَة / الخُشُوع / الإِخْبَات",
+      "concept": "انقياد النفس وسكون الجوارح ورقّة القلب استسلاماً لله.",
+      "terms": [
+        {
+          "term": "الإِنَابَة",
+          "distinction": "رجوع النفس إلى الله وتكرار العودة إليه بالكلية."
+        },
+        {
+          "term": "الخُشُوع",
+          "distinction": "سكون الجوارح وتواضع القلب وخفض الصوت هيبةً لله."
+        },
+        {
+          "term": "الإِخْبَات",
+          "distinction": "الخضوع والاستقرار التام والتواضع الشديد في الطاعة."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الإِنَابَة",
+          "distinction": "رجوع النفس إلى الله وتكرار العودة إليه بالكلية."
+        },
+        {
+          "term": "الخُشُوع",
+          "distinction": "سكون الجوارح وتواضع القلب وخفض الصوت هيبةً لله."
+        },
+        {
+          "term": "الإِخْبَات",
+          "distinction": "الخضوع والاستقرار التام والتواضع الشديد في الطاعة."
+        }
+      ]
+    },
+    {
+      "id": "synthesis-16",
+      "order": 16,
+      "title": "الزُّهْد / الوَرَع",
+      "concept": "سلوك النفس الداعي لترك ما لا ينفع في الآخرة أو تحرّي السلامة من الشبهات.",
+      "terms": [
+        {
+          "term": "الزُّهْد",
+          "distinction": "عزوف النفس ورغبتها عن الفاضل إلى ما هو أفضل منه، وترك ما لا ينفع في الآخرة."
+        },
+        {
+          "term": "الوَرَع",
+          "distinction": "ترك ما يُتوهم أنه يضر في الآخرة، توقياً من الشبهات."
+        }
+      ],
+      "lexical_neighbors": [
+        {
+          "term": "الزُّهْد",
+          "distinction": "عزوف النفس ورغبتها عن الفاضل إلى ما هو أفضل منه، وترك ما لا ينفع في الآخرة."
+        },
+        {
+          "term": "الوَرَع",
+          "distinction": "ترك ما يُتوهم أنه يضر في الآخرة، توقياً من الشبهات."
+        }
+      ]
+    }
+  ],
+  "official_roots": [
+    {
+      "order": 1,
+      "root": "الخَوْف",
+      "occurrence": "وردت مادته 124 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الخَوْف",
+          "definition": "انفعال نفسي يتوقع معه ضرر أو مكروه أو زوال محبوب، ينقسم في القرآن إلى خوف جبلي طبعي (لا ينافي الإيمان) وخوف مذموم يؤدي للتولي وترك الطاعة."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-01",
+          "entries": [
+            {
+              "term": "الخَوْف",
+              "distinction": "توقع الحدوث أو المكروه بناءً على أمارة مظنونة أو معلومة (وهو أصل الباب)."
+            },
+            {
+              "term": "الخَشْيَة",
+              "distinction": "خوف يقترن بعلم وتعظيم للمخوف منه، وهي أخص من الخوف."
+            },
+            {
+              "term": "الرَّهْبَة",
+              "distinction": "طول الخوف واستمراره مع اضطراب وتحرّز وتجمّع للنفس."
+            },
+            {
+              "term": "الوَجَل",
+              "distinction": "استشعار الخوف وفزع القلب عند حدوث أمر مفاجئ أو عند ذكر جلال الله."
+            },
+            {
+              "term": "الإِشْفَاق",
+              "distinction": "خوف رقيق ممزوج بعناية ورحمة بالمخوف عليه."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 2,
+      "root": "الخَشْيَة / الرَّهْبَة",
+      "occurrence": "الخشية: 48 مرة / الرهبة: 12 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الخَشْيَة / الرَّهْبَة",
+          "definition": "انقباض وصيانة للنفس ناشئة عن استعظام المخوف منه والعلم بجلاله، وتستلزم الانقياد للشرع والهرب من نهيه."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-01",
+          "entries": [
+            {
+              "term": "الخَوْف",
+              "distinction": "توقع الحدوث أو المكروه بناءً على أمارة مظنونة أو معلومة (وهو أصل الباب)."
+            },
+            {
+              "term": "الخَشْيَة",
+              "distinction": "خوف يقترن بعلم وتعظيم للمخوف منه، وهي أخص من الخوف."
+            },
+            {
+              "term": "الرَّهْبَة",
+              "distinction": "طول الخوف واستمراره مع اضطراب وتحرّز وتجمّع للنفس."
+            },
+            {
+              "term": "الوَجَل",
+              "distinction": "استشعار الخوف وفزع القلب عند حدوث أمر مفاجئ أو عند ذكر جلال الله."
+            },
+            {
+              "term": "الإِشْفَاق",
+              "distinction": "خوف رقيق ممزوج بعناية ورحمة بالمخوف عليه."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 3,
+      "root": "الحُزْن",
+      "occurrence": "وردت مادته 42 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الحُزْن",
+          "definition": "غمّ وثقل يلحق النفس لفوات محبوب أو وقوع مكروه في الماضي، ونفيه عن المؤمنين بالآخرة جزاء لثباتهم."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-02",
+          "entries": [
+            {
+              "term": "الحُزْن",
+              "distinction": "انقباض النفس وغمّها على ما فات أو نزل من المكروه."
+            },
+            {
+              "term": "الأَسَى",
+              "distinction": "شدة الحزن والاستغراق فيه حتى يورث الحسرة على الماضي."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 4,
+      "root": "الرَّجَاء / الرَّغْبَة",
+      "occurrence": "الرجاء: 28 مرة / الرغبة: 8 مرات",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الرَّجَاء / الرَّغْبَة",
+          "definition": "تعلق القلب بالحصول على أمر محبوب مع الاستعانة والأخذ بالأسباب، وهو مع الله عبادة وطمع محمود في رحمته."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-03",
+          "entries": [
+            {
+              "term": "الرَّجَاء",
+              "distinction": "تعلّق القلب بمتوقع محبوب مع الأخذ بأسبابه."
+            },
+            {
+              "term": "الرَّغْبَة",
+              "distinction": "ميل النفس وإقبالها الكلي نحو المطلوب بشوق وحرص."
+            },
+            {
+              "term": "الأَمَل",
+              "distinction": "امتداد الرجاء وطوله في الزمن."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 5,
+      "root": "الأَمْن / الطَّمَأْنِينَة / السَّكِينَة",
+      "occurrence": "الأمن: 45 مرة / الطمأنينة: 13 مرة / السكينة: 6 مرات",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الأَمْن / الطَّمَأْنِينَة / السَّكِينَة",
+          "definition": "هدوء النفس وزوال الخوف والريب وثبات القلب بنزول الطمأنينة والتأييد الإلهي."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-04",
+          "entries": [
+            {
+              "term": "الأَمْن",
+              "distinction": "عدم توقع المكروه وزوال الخوف والذعر."
+            },
+            {
+              "term": "الطَّمَأْنِينَة",
+              "distinction": "استقرار النفس بحيث لا يقلقها شك ولا يزعجها اضطراب."
+            },
+            {
+              "term": "السَّكِينَة",
+              "distinction": "طمأنينة ينزلها الله في القلب عند الفتن أو شدة الخوف فتورث الثبات."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 6,
+      "root": "الغَضَب",
+      "occurrence": "وردت مادته 24 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الغَضَب",
+          "definition": "صفة انفعالية في المخلوق، وهو في حق الله تعالى صفة فعلية حقيقية ثابتة له سبحانه على ما يليق بجلاله وعظمته، دون تأويل ولا تكييف ولا تمثيل (وفق عقيدة أهل السنة والجماعة وما تقرر عند شيخ الإسلام ابن تيمية وتلميذه ابن القيم)."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-05",
+          "entries": [
+            {
+              "term": "الغَضَب",
+              "distinction": "الانفعال النفسي الداعي إلى الانتقام أو المنع."
+            },
+            {
+              "term": "الغَيْظ",
+              "distinction": "شدة الغضب وحرارته المحبوسة في الصدر عند العجز عن إمضائه فوراً."
+            },
+            {
+              "term": "السَّخَط",
+              "distinction": "الغضب الصادر من الأعلى إلى الأدنى عند ترك الواجب أو انتهاك المحظور."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 7,
+      "root": "الفَرَح / المَرَح",
+      "occurrence": "الفرح: 22 مرة / المرح: 3 مرات",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الفَرَح / المَرَح",
+          "definition": "انشراح الصدر ولذة النفس بالنعم؛ فإن كان بفضل الله ورحمته فمحمود، وإن كان بالبَطَر والأَشَر فمذموم."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-06",
+          "entries": [
+            {
+              "term": "الفَرَح",
+              "distinction": "لذة تقع في القلب لنيل المشتهى، وقد تكون محمودة أو مذمومة بحسب سببها."
+            },
+            {
+              "term": "المَرَح",
+              "distinction": "شدة الفرح والتوسع فيه حتى يورث الخفة والخيلاء."
+            },
+            {
+              "term": "الاسْتِبْشَار",
+              "distinction": "الفرح الذي تظهر آثاره وبشائره على الوجه عند سماع الخبر السار."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 8,
+      "root": "الحَسْرَة / النَّدَم",
+      "occurrence": "الحسرة: 12 مرة / الندم: 11 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الحَسْرَة / النَّدَم",
+          "definition": "تألم وتحسر النفس على ما مضى من التفريط والتقصير، وهو ركن التوبة في الدنيا، وسبب العقاب والشعور بالخيبة في الآخرة."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-07",
+          "entries": [
+            {
+              "term": "النَّدَم",
+              "distinction": "كرب النفس وتألمها على ما وقع منها مما تتمنى لو لم يقع."
+            },
+            {
+              "term": "الحَسْرَة",
+              "distinction": "شدة الندم حتى يكاد يقطع صاحبه ويجعله حسيراً."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 9,
+      "root": "الشُّحّ / البُخْل",
+      "occurrence": "الشح: 5 مرات / البخل: 12 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الشُّحّ / البُخْل",
+          "definition": "انقباض النفس عن بذل ما يجب بذله من المال أو الحقوق، وهو خلق ذميم يمنع التضامن والإنفاق."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-08",
+          "entries": [
+            {
+              "term": "البُخْل",
+              "distinction": "إمساك المكتسبات والامتناع عن إعطاء ما يحسن إعطاؤه."
+            },
+            {
+              "term": "الشُّحّ",
+              "distinction": "شدة البخل المستقرة طبعاً في النفس والمقترنة بالحرص."
+            },
+            {
+              "term": "القَتْر",
+              "distinction": "التضييق والتقليل في النفقة."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 10,
+      "root": "الكِبْر / العُجْب",
+      "occurrence": "الكبر والاستكبار: 48 مرة / العجب: 27 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الكِبْر / العُجْب",
+          "definition": "رؤية النفس فوق قدرها وازدراء الخلق ورد الحق جحوداً وعناداً."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-09",
+          "entries": [
+            {
+              "term": "الكِبْر",
+              "distinction": "حالة نفسية يرى بها الإنسان نفسه أكبر من غيره ويرفض الحق."
+            },
+            {
+              "term": "العُجْب",
+              "distinction": "استعظام النعمة والاعتماد عليها مع نسيان منعمها."
+            },
+            {
+              "term": "الخُيَلَاء",
+              "distinction": "التكبر الظاهر في المشية والهيئة والسلوك الخارجي."
+            },
+            {
+              "term": "الاسْتِكْبَار",
+              "distinction": "الامتناع والتعالي السلوكي الداعي لرد الحق والاستعلاء على الخلق."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 11,
+      "root": "التَّوَكُّل",
+      "occurrence": "وردت مادته 70 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "التَّوَكُّل",
+          "definition": "اعتماد القلب الصادق على الله تعالى في جلب المصالح ودفع المضار مع الأخذ بالأسباب المشروعة."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-10",
+          "entries": [
+            {
+              "term": "التَّوَكُّل",
+              "distinction": "إظهار العجز والاعتماد على غيرك في تحصيل المراد مع الأخذ بالسبب."
+            },
+            {
+              "term": "التَّفْوِيض",
+              "distinction": "رد الأمر كله لله والرضا بحكمه قبل وقوعه وبعده."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 12,
+      "root": "الصَّبْر",
+      "occurrence": "وردت مادته 103 مرات",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الصَّبْر",
+          "definition": "حبس النفس عن الجزع وتماسكها عند ورود المكاره والبلاء والاستمرار في الطاعة وعن المعصية."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-11",
+          "entries": [
+            {
+              "term": "الصَّبْر",
+              "distinction": "حبس النفس على ما تكره وتثبيتها على طاعة الله أو الابتلاء."
+            },
+            {
+              "term": "المُصَابَرَة",
+              "distinction": "مغالبة العدو أو الهوى في الصبر، استمراراً ومغالبة."
+            },
+            {
+              "term": "المُرَابَطَة",
+              "distinction": "الثبات والاستمرار الميداني أو النفسي في الثغر."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 13,
+      "root": "اليَأْس / القُنُوط",
+      "occurrence": "اليأس: 13 مرة / القنوط: 6 مرات",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "اليَأْس / القُنُوط",
+          "definition": "انقلاع الرجاء وقطع الأمل من رحمة الله وفضله، وهو انفعال مذموم يقع من الكافرين والضالين."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-12",
+          "entries": [
+            {
+              "term": "اليَأْس",
+              "distinction": "انقطاع طمع النفس من وقوع المطلوب."
+            },
+            {
+              "term": "القُنُوط",
+              "distinction": "أشد اليأس؛ انقطاع الرجاء بالكامل وظهور أثره على هيئة الإنسان وسلوكه."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 14,
+      "root": "الهَوَى",
+      "occurrence": "وردت مادته 38 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الهَوَى",
+          "definition": "ميل النفس العاطفي والغريزي إلى ما يخالف الحق والشرع."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-13",
+          "entries": [
+            {
+              "term": "الهَوَى",
+              "distinction": "ميل النفس المستمر إلى ما يلائم طباعها وحسها وإن كان باطلاً."
+            },
+            {
+              "term": "الشَّهْوَة",
+              "distinction": "حركة النفس وتوقها العاجل لحصول المحبوب."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 15,
+      "root": "القَسَاوَة",
+      "occurrence": "وردت مادتها 7 مرات",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "القَسَاوَة",
+          "definition": "صلابة القلب وغلظته بحيث لا يتأثر بالوعظ ولا يلين للآيات."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-14",
+          "entries": [
+            {
+              "term": "القَسَاوَة",
+              "distinction": "صلابة القلب وغلاظته وخلوه من الإنابة والرحمة."
+            },
+            {
+              "term": "الرَّيْن",
+              "distinction": "الصدأ والظلمة التي تغطي القلب لكثرة الذنوب."
+            },
+            {
+              "term": "الطَّبْع / الخَتْم",
+              "distinction": "إغلاق القلب بالكلية فلا يدخله إيمان ولا يخرج منه كفر."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 16,
+      "root": "الإِنَابَة / الخُشُوع",
+      "occurrence": "الإنابة: 18 مرة / الخشوع: 17 مرة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الإِنَابَة / الخُشُوع",
+          "definition": "الرجوع إلى الله بالرجاء والتوبة وانكسار الجوارح والقلب لخشيته وعظمته."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-15",
+          "entries": [
+            {
+              "term": "الإِنَابَة",
+              "distinction": "رجوع النفس إلى الله وتكرار العودة إليه بالكلية."
+            },
+            {
+              "term": "الخُشُوع",
+              "distinction": "سكون الجوارح وتواضع القلب وخفض الصوت هيبةً لله."
+            },
+            {
+              "term": "الإِخْبَات",
+              "distinction": "الخضوع والاستقرار التام والتواضع الشديد في الطاعة."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    },
+    {
+      "order": 17,
+      "root": "الزُّهْد",
+      "occurrence": "وردت مادتها مرة واحدة",
+      "status": "approved",
+      "six_part_record": {
+        "fixed_root": {
+          "value": "الزُّهْد",
+          "definition": "انصراف النفس عن الرغبة في الشيء لقلته أو هوانه، والزهد القرآني هو عدم التعلق بمتاع الدنيا الزائل وإيثار الباقي على الفاني."
+        },
+        "phonetic_morphological_neighbors": {
+          "status": "pending",
+          "entries": []
+        },
+        "lexical_neighbors": {
+          "status": "approved",
+          "synthesis_group": "synthesis-16",
+          "entries": [
+            {
+              "term": "الزُّهْد",
+              "distinction": "عزوف النفس ورغبتها عن الفاضل إلى ما هو أفضل منه، وترك ما لا ينفع في الآخرة."
+            },
+            {
+              "term": "الوَرَع",
+              "distinction": "ترك ما يُتوهم أنه يضر في الآخرة، توقياً من الشبهات."
+            }
+          ]
+        },
+        "adjacent_root_bridge": {
+          "status": "pending",
+          "entries": []
+        },
+        "parallel_or_contrasting_root": {
+          "status": "pending",
+          "entries": []
+        },
+        "contextual_cross_notes": {
+          "status": "pending",
+          "entries": []
+        }
+      }
+    }
+  ],
+  "integrity_note": "السبك المختصر طبقة تلخيصية من 16 نواة مركبة، ولا يلغي النواة المركزية الرسمية المكونة من 17 أصلاً."
+}
